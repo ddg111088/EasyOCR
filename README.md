@@ -1,6 +1,7 @@
 # BizCardX-Extracting_Business_Card_Data_with_OCR
 ## What is EasyOCR?
 EasyOCR is an open-source, Python-based optical character recognition (OCR) library that can be used to extract text from images and documents. It is compatible with a wide range of languages and writing scripts, and it is known for its accuracy and speed. In my project I am using easyOCR to extract text from **business cards.**
+
 EasyOCR is based on the Tesseract OCR engine, but it provides a number of additional features and improvements, such as:
 -	Support for multiple languages and writing scripts
 -	Faster recognition speed
