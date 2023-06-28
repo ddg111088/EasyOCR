@@ -2,15 +2,15 @@
 ## What is EasyOCR?
 EasyOCR is an open-source, Python-based optical character recognition (OCR) library that can be used to extract text from images and documents. It is compatible with a wide range of languages and writing scripts, and it is known for its accuracy and speed. In my project I am using easyOCR to extract text from **business cards.**
 EasyOCR is based on the Tesseract OCR engine, but it provides a number of additional features and improvements, such as:
-•	Support for multiple languages and writing scripts
-•	Faster recognition speed
-•	Improved accuracy
-•	Easier to use API
+-	Support for multiple languages and writing scripts
+-	Faster recognition speed
+-	Improved accuracy
+-	Easier to use API
 EasyOCR is a popular choice for a variety of OCR tasks, including:
-•	Extracting text from scanned documents
-•	Reading text from images of signs and labels
-•	Identifying text in natural scene images
-•	Translating text from one language to another
+-	Extracting text from scanned documents
+-	Reading text from images of signs and labels
+-	Identifying text in natural scene images
+-	Translating text from one language to another
 
 ## Project Overview
 
