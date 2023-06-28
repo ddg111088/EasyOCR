@@ -7,7 +7,9 @@ EasyOCR is based on the Tesseract OCR engine, but it provides a number of additi
 -	Faster recognition speed
 -	Improved accuracy
 -	Easier to use API
+  
 EasyOCR is a popular choice for a variety of OCR tasks, including:
+
 -	Extracting text from scanned documents
 -	Reading text from images of signs and labels
 -	Identifying text in natural scene images
