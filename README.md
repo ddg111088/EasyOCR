@@ -34,16 +34,16 @@ BizCardX is a simple tool for extracting information from business cards. The pr
 ## Workflow
 
 To get started with BizCardX Data Extraction, follow the steps below:
-•	Install the required libraries using the pip install command. Streamlit, mysql.connector, pandas, easyocr.
-•	pip install [Name of the library]
-•	Execute the “BizCardX_main.py” using the streamlit run command.
+-	Install the required libraries using the pip install command. Streamlit, mysql.connector, pandas, easyocr.
+-	pip install [Name of the library]
+-	Execute the “BizCardX_main.py” using the streamlit run command.
 streamlit run BizCardX_main.py
 
-•	A webpage is shown in the browser, and I designed the app with three menu options: HOME, UPLOAD & EXTRACT, and MODIFY, where the user may upload the individual Business Card whose information must be extracted, saved, edited, or deleted if necessary.
-•	Once user uploads a business card, the text present in the card is extracted by easyocr library.
-•	Using loops and some regular expression, the extracted text is given to the get_data() function (user defined- I programmed this function) for text categorization as firm name, card holder name, designation, mobile number, email address, website URL, area, city, state, and pin code.
-•	The categorised data is presented on the screen and can be updated by the user as needed.
-•	When you click the Upload to Database button, the data is saved in the MySQL database. (Note: For connection establishment, provide the appropriate host, user, password, and database name in create_database, sql_table_creation, and connect_database.)
-•	Furthermore, the uploaded data in the SQL Database may be accessed using the MODIFY menu for Read, Update, and Delete operations.
+-	A webpage is shown in the browser, and I designed the app with three menu options: HOME, UPLOAD & EXTRACT, and MODIFY, where the user may upload the individual Business Card whose information must be extracted, saved, edited, or deleted if necessary.
+-	Once user uploads a business card, the text present in the card is extracted by easyocr library.
+-	Using loops and some regular expression, the extracted text is given to the get_data() function (user defined- I programmed this function) for text categorization as firm name, card holder name, designation, mobile number, email address, website URL, area, city, state, and pin code.
+-	The categorised data is presented on the screen and can be updated by the user as needed.
+-	When you click the Upload to Database button, the data is saved in the MySQL database. (Note: For connection establishment, provide the appropriate host, user, password, and database name in create_database, sql_table_creation, and connect_database.)
+-	Furthermore, the uploaded data in the SQL Database may be accessed using the MODIFY menu for Read, Update, and Delete operations.
 
 
