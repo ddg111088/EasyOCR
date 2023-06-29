@@ -19,7 +19,7 @@ EasyOCR is a popular choice for a variety of OCR tasks, including:
 
 BizCardX is a simple tool for extracting information from business cards. The programme recognises text on business cards with OCR technology and extracts the data into a SQL database after categorization with regular expressions. Users can view the retrieved data using a streamlit-built GUI. The BizCardX programme has a simple and straightforward user interface that takes users through the process of uploading the business card image and extracting its information. The extracted data would be displayed in a tidy and organised manner, and users would be able to effortlessly add it to the database with the click of a button. Furthermore, the data saved in the database may be quickly read, changed, and removed by the user as required.
 
-### Want to see demo video of my project? - [click here]()
+### Want to see demo video of my project? - [click here](https://www.linkedin.com/posts/dhananjay-gothankar-6a9007262_python-technology-project-activity-7080095198654922753-cIYG?utm_source=share&utm_medium=member_desktop)
 
 ## Libraries/Modules used for the project!
 
